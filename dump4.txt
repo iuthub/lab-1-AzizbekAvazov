@@ -1,0 +1,164 @@
+13:06:43.562000 == Info:   Trying 87.237.235.60...
+13:06:43.562000 == Info: TCP_NODELAY set
+13:06:43.578000 == Info: Connected to kun.uz (87.237.235.60) port 443 (#0)
+13:06:43.578000 == Info: ALPN, offering h2
+13:06:43.578000 == Info: ALPN, offering http/1.1
+13:06:43.593000 == Info: successfully set certificate verify locations:
+13:06:43.593000 == Info:   CAfile: C:\curl-7.63.0-win64-mingw\bin\curl-ca-bundle.crt
+  CApath: none
+13:06:43.593000 => Send SSL data, 5 bytes (0x5)
+0000: .....
+13:06:43.593000 == Info: TLSv1.3 (OUT), TLS handshake, Client hello (1):
+13:06:43.593000 => Send SSL data, 512 bytes (0x200)
+0000: ........@....a....~Kw."...+].t_x}n.... .]L..pM3.*.9nB:...8...m;.
+0040: ....2...>.......,.0.........+./...$.(.k.#.'.g.....9.....3.....=.
+0080: <.5./.....u.........kun.uz........................3t.........h2.
+00c0: http/1.1.........1.....0........................................
+0100: .........+............-.....3.&.$... ........u.;..j.Z.?...I....
+0140: ]9..{...........................................................
+0180: ................................................................
+01c0: ................................................................
+13:06:43.625000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....l
+13:06:43.625000 == Info: TLSv1.3 (IN), TLS handshake, Server hello (2):
+13:06:43.625000 <= Recv SSL data, 108 bytes (0x6c)
+0000: ...h...S....0....\j.Q..Q.@..Vx#......L .fDTn+V...JJ....R.]Nhb.-.
+0040: ...9..E.0.. ........................http/1.1
+13:06:43.625000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....&
+13:06:43.625000 == Info: TLSv1.2 (IN), TLS handshake, Certificate (11):
+13:06:43.625000 <= Recv SSL data, 2854 bytes (0xb26)
+0000: ..."......0...0..........wBra>e.....{0...*.H........0L1.0...U...
+0040: .BE1.0...U....GlobalSign nv-sa1"0 ..U....AlphaSSL CA - SHA256 - 
+0080: G20...180216073541Z..190217073541Z061!0...U....Domain Control Va
+00c0: lidated1.0...U....*.kun.uz0.."0...*.H.............0.............
+0100: .?.|m.|."..kx.J`..q....M'...<....I.b..1......x..7\.._..LR.2._.wH
+0140: .........U..,.]h.K[..-.a.......l..c6......F....yf.=.D0.Uzn.X..!.
+0180: q......m........a.pm.p..zS.D.....L.J.U.......d..e..@./..m.V....
+01c0: (....J..5\.8...z......R&,.a..O.u.X.....w.0........9N.L..........
+0200: ....0...0...U...........0....+........}0{0B..+.....0..6http://se
+0240: cure2.alphassl.com/cacert/gsalphasha2g2r1.crt05..+.....0..)http:
+0280: //ocsp2.globalsign.com/gsalphasha2g20W..U. .P0N0B..+.....2...040
+02c0: 2..+........&https://www.globalsign.com/repository/0...g.....0..
+0300: .U....0.0>..U...70503.1./.-http://crl2.alphassl.com/gs/gsalphash
+0340: a2g2.crl0...U....0...*.kun.uz..kun.uz0...U.%..0...+.........+...
+0380: ....0...U.......I....x.k.N16....!..0...U.#..0......<.P.jO:...V..
+03c0: i.h.0.....+.....y..............v....+z.O. ....hp~.....\..=......
+0400: ....a..Z......G0E.!.....(..>..........3..dG>.~...\4M. l..\.Y....
+0440: "#tc....ed....<.vZv.7..v.V.../.......D.>.Fv....\....U.......a..Z
+0480: <.....G0E. ]..*.......E......!r.(H...|:cvB..!..#.px.U..n....I...
+04c0: ..........0..m.u.......q...#...{G8W...R....d6.......a..]......F0
+0500: D. :@.....{.^..9y....t_.4........N. ..R.2....#....y....d.I..h..
+0540: Z.q...w.......X......gp.<5.......w.........a..\......H0F.!...2.c
+0580: ........v`".....Zx.....h.*..!.......G{...'.Z.~........z.gj!8.,0.
+05c0: ..*.H....................[....>....}.S.....@.F.s...Y....F.]..Q.=
+0600: .G....5.V../c5..S.....O....P...DZ.g.HH.n.;.11._.q<...........(..
+0640: .W..+..M.....0..A.L!WC...P.....\J..K...%...B...%.....x*z.I.7..\.
+0680: .C4..'....l..,.q.k...bM6..*...Q.~....h.5.G_#?{.S..cd..C.[.T.).6L
+06c0: #..X=..D..<a.G..pO..Q0..M0..5.............DN.610...*.H........0W
+0700: 1.0...U....BE1.0...U....GlobalSign nv-sa1.0...U....Root CA1.0...
+0740: U....GlobalSign Root CA0...140220100000Z..240220100000Z0L1.0...U
+0780: ....BE1.0...U....GlobalSign nv-sa1"0 ..U....AlphaSSL CA - SHA256
+07c0:  - G20.."0...*.H.............0.............s`.~.j.....d2........
+0800: .k....g.t.]G.<.@..m....)9....h.f.....vX..]..@.9....}"......S.b..
+0840: D(L.'.{...d......r.Al1[H....#.UM.}bJ....Y..%........m...d@^s....
+0880: e.T..p....4_......#YE..Uz...`"....UF.....t_..d...8....!O.n..ag..
+08c0: B......m*./.B....S......r{Z.O>.X....g........#0...0...U........
+0900: ...0...U.......0.......0...U.........<.P.jO:...V..i.h.0E..U. .>0
+0940: <0:..U. .0200..+........$https://www.alphassl.com/repository/03.
+0980: .U...,0*0(.&.$."http://crl.globalsign.net/root.crl0=..+........1
+09c0: 0/0-..+.....0..!http://ocsp.globalsign.com/rootr10...U.#..0...`{
+0a00: f.E....P/}..4....K0...*.H.............`@h.G....\.V*..\....K...?.
+0a40: ....B..L..f..%Cx...V.R.......s>.b......s....8.c=.........@.X.S.b
+0a80: ...B4N.C.q.0.....?W......."p.f.T.(..T...bg..'...f.$..j.De..L.X
+0ac0: ..N.....g/8 ....Q...=.pGe..sr.`.\..sv..N..7.E/.#>..0.18|..R..S.%
+0b00: WVf.......N..m.d.^.y....@.D.>..^..!.YS
+13:06:43.625000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....M
+13:06:43.625000 == Info: TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+13:06:43.625000 <= Recv SSL data, 333 bytes (0x14d)
+0000: ...I...A.EN....m.O...R..Z.;...V...Q..I.Q.-0.An........1...B.?...
+0040: .Dk4..r.......c........F..<...._`L!..w.|w.BS.n....w...."n{...?..
+0080: w.......u.[...S..Z.D......R#._0.Q..+...E{.W./....<.3d.......:..*
+00c0: a.jnt!..;......?"..............'.g6`fa...Sg.O...8.P@,..A./.rz...
+0100: ..KF...Xc......*.2.2Z....8...v.SS<......l..^....<.).><`Zg.V~.f..
+0140: ..@$wr.D....z
+13:06:43.625000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+13:06:43.625000 == Info: TLSv1.2 (IN), TLS handshake, Server finished (14):
+13:06:43.625000 <= Recv SSL data, 4 bytes (0x4)
+0000: ....
+13:06:43.625000 => Send SSL data, 5 bytes (0x5)
+0000: ....F
+13:06:43.625000 == Info: TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+13:06:43.625000 => Send SSL data, 70 bytes (0x46)
+0000: ...BA.ED.0.._..|......C.8PF.uIsq..>o..f....l.8j..xLp.7^.q]...s.
+0040: ..#.8L
+13:06:43.625000 => Send SSL data, 5 bytes (0x5)
+0000: .....
+13:06:43.625000 == Info: TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+13:06:43.625000 => Send SSL data, 1 bytes (0x1)
+0000: .
+13:06:43.625000 => Send SSL data, 5 bytes (0x5)
+0000: ....(
+13:06:43.625000 == Info: TLSv1.2 (OUT), TLS handshake, Finished (20):
+13:06:43.625000 => Send SSL data, 16 bytes (0x10)
+0000: ....L..HDr...c._
+13:06:43.640000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+13:06:43.640000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....(
+13:06:43.640000 == Info: TLSv1.2 (IN), TLS handshake, Finished (20):
+13:06:43.640000 <= Recv SSL data, 16 bytes (0x10)
+0000: ....[ ...w=..\.V
+13:06:43.640000 == Info: SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+13:06:43.640000 == Info: ALPN, server accepted to use http/1.1
+13:06:43.640000 == Info: Server certificate:
+13:06:43.640000 == Info:  subject: OU=Domain Control Validated; CN=*.kun.uz
+13:06:43.640000 == Info:  start date: Feb 16 07:35:41 2018 GMT
+13:06:43.640000 == Info:  expire date: Feb 17 07:35:41 2019 GMT
+13:06:43.640000 == Info:  subjectAltName: host "kun.uz" matched cert's "kun.uz"
+13:06:43.640000 == Info:  issuer: C=BE; O=GlobalSign nv-sa; CN=AlphaSSL CA - SHA256 - G2
+13:06:43.640000 == Info:  SSL certificate verify ok.
+13:06:43.640000 => Send SSL data, 5 bytes (0x5)
+0000: ....e
+13:06:43.640000 => Send header, 77 bytes (0x4d)
+0000: GET / HTTP/1.1
+0010: Host: www.afisha.uz
+0025: Accept: */*
+0032: User-Agent: Mozilla/5.0
+004b: 
+13:06:43.734000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+13:06:43.734000 <= Recv header, 20 bytes (0x14)
+0000: HTTP/1.1 302 Found
+13:06:43.734000 <= Recv header, 15 bytes (0xf)
+0000: Server: nginx
+13:06:43.734000 <= Recv header, 37 bytes (0x25)
+0000: Date: Wed, 06 Feb 2019 08:06:43 GMT
+13:06:43.734000 <= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=UTF-8
+13:06:43.734000 <= Recv header, 28 bytes (0x1c)
+0000: Transfer-Encoding: chunked
+13:06:43.734000 <= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+13:06:43.734000 <= Recv header, 26 bytes (0x1a)
+0000: X-Powered-By: PHP/5.6.25
+13:06:43.734000 <= Recv header, 89 bytes (0x59)
+0000: Set-Cookie: GHccx38lUkRM4ab6jgZF1wRl=vml0hre3fprcbofeuoa1p10df6;
+0040:  path=/; domain=.kun.uz
+13:06:43.734000 <= Recv header, 40 bytes (0x28)
+0000: Expires: Thu, 19 Nov 1981 08:52:00 GMT
+13:06:43.734000 <= Recv header, 79 bytes (0x4f)
+0000: Cache-Control: no-store, no-cache, must-revalidate, post-check=0
+0040: , pre-check=0
+13:06:43.734000 <= Recv header, 18 bytes (0x12)
+0000: Pragma: no-cache
+13:06:43.734000 <= Recv header, 47 bytes (0x2f)
+0000: Location: https://www.afisha.uz/sign-in/login
+13:06:43.734000 <= Recv header, 2 bytes (0x2)
+0000: 
+13:06:43.734000 <= Recv data, 5 bytes (0x5)
+0000: 0
+0003: 
+13:06:43.734000 == Info: Connection #0 to host kun.uz left intact

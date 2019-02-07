@@ -1,0 +1,62 @@
+13:16:33.187000 == Info:   Trying 93.184.216.34...
+13:16:33.187000 == Info: TCP_NODELAY set
+13:16:33.203000 == Info: Connected to example.com (93.184.216.34) port 80 (#0)
+13:16:33.203000 => Send header, 145 bytes (0x91)
+0000: POST / HTTP/1.1
+0011: Host: example.com
+0024: User-Agent: curl/7.63.0
+003d: Accept: */*
+004a: Content-Length: 55
+005e: Content-Type: application/x-www-form-urlencoded
+008f: 
+13:16:33.203000 => Send data, 55 bytes (0x37)
+0000: -urlencode "email=test@example.com&name=Boolean World" 
+13:16:33.203000 == Info: upload completely sent off: 55 out of 55 bytes
+13:16:33.640000 <= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+13:16:33.640000 <= Recv header, 22 bytes (0x16)
+0000: Accept-Ranges: bytes
+13:16:33.640000 <= Recv header, 31 bytes (0x1f)
+0000: Cache-Control: max-age=604800
+13:16:33.640000 <= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=UTF-8
+13:16:33.640000 <= Recv header, 37 bytes (0x25)
+0000: Date: Wed, 06 Feb 2019 08:16:32 GMT
+13:16:33.640000 <= Recv header, 20 bytes (0x14)
+0000: Etag: "1541025663"
+13:16:33.640000 <= Recv header, 40 bytes (0x28)
+0000: Expires: Wed, 13 Feb 2019 08:16:32 GMT
+13:16:33.640000 <= Recv header, 46 bytes (0x2e)
+0000: Last-Modified: Fri, 09 Aug 2013 23:54:35 GMT
+13:16:33.640000 <= Recv header, 27 bytes (0x1b)
+0000: Server: EOS (vny006/044F)
+13:16:33.640000 <= Recv header, 22 bytes (0x16)
+0000: Content-Length: 1270
+13:16:33.640000 <= Recv header, 24 bytes (0x18)
+0000: Connection: Keep-Alive
+13:16:33.640000 <= Recv header, 2 bytes (0x2)
+0000: 
+13:16:33.640000 <= Recv data, 1132 bytes (0x46c)
+0000: <!doctype html>.<html>.<head>.    <title>Example Domain</title>.
+0040: .    <meta charset="utf-8" />.    <meta http-equiv="Content-type
+0080: " content="text/html; charset=utf-8" />.    <meta name="viewport
+00c0: " content="width=device-width, initial-scale=1" />.    <style ty
+0100: pe="text/css">.    body {.        background-color: #f0f0f2;.   
+0140:      margin: 0;.        padding: 0;.        font-family: "Open S
+0180: ans", "Helvetica Neue", Helvetica, Arial, sans-serif;.        . 
+01c0:    }.    div {.        width: 600px;.        margin: 5em auto;. 
+0200:        padding: 50px;.        background-color: #fff;.        bo
+0240: rder-radius: 1em;.    }.    a:link, a:visited {.        color: #
+0280: 38488f;.        text-decoration: none;.    }.    @media (max-wid
+02c0: th: 700px) {.        body {.            background-color: #fff;.
+0300:         }.        div {.            width: auto;.            mar
+0340: gin: 0 auto;.            border-radius: 0;.            padding: 
+0380: 1em;.        }.    }.    </style>    .</head>..<body>.<div>.    
+03c0: <h1>Example Domain</h1>.    <p>This domain is established to be 
+0400: used for illustrative examples in documents. You may use this.  
+0440:   domain in examples without prior coordinat
+13:16:33.640000 <= Recv data, 138 bytes (0x8a)
+0000: ion or asking for permission.</p>.    <p><a href="http://www.ian
+0040: a.org/domains/example">More information...</a></p>.</div>.</body
+0080: >.</html>.
+13:16:33.656000 == Info: Connection #0 to host example.com left intact
